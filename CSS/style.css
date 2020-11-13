@@ -44,4 +44,31 @@
     background-image: url(/img/pexels-christina-morillo-1181233.jpg);
     height: 95vh;
     border: 1px solid black;
+    background-size: cover;
+}
+
+.banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+}
+
+.banner .banner-text{
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.banner .banner-text h2{
+    font-size: 70px;
+    color: #F9683F;
+}
+
+.banner .banner-btn{
+    margin-left: 35%;
 }
