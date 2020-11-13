@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: 1px solid black;
+    background-color: black;
+    
+}
+
+.header .brand-img img{
+    width: 100px;
+}
+
+.header .brand-items{
+                display: flex;
+}
+
+.header .brand-items .brand-text ul{
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 50%; */
+}
+
+.header .brand-items .brand-text{
+    margin-left: 70%;
+}
+
+.header .brand-items .brand-text ul li {
+    
+    list-style: none;
+    padding: 10px;
+}
+
+.header .brand-items .brand-text ul li a{
+    text-decoration: none;
+    color: #F5883D;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.banner{
+    background-image: url(/img/pexels-christina-morillo-1181233.jpg);
+    height: 95vh;
+    border: 1px solid black;
+}
