@@ -4,11 +4,16 @@
 }
 
 .header{
-    border: 1px solid black;
-    background-color: black;
+    /* border: 1px solid black; */
+    /* background-color: black; */
     /* opacity: .9; */
-    z-index: 999;
+    z-index: 99;
     position: relative;
+    top: 0;
+}
+
+.header:hover{
+    background-color: black;
 }
 
 .header .brand-img img{
@@ -17,7 +22,8 @@
 }
 
 .header .brand-items{
-                display: flex;
+    display: flex;
+    position: fixed;
 }
 
 .header .brand-items .brand-text ul{
@@ -65,7 +71,8 @@
 }
 
 .banner .banner-text{
-    margin-left: 25%;
+    /* margin-left: 25%; */
+    text-align: center;
     margin-top: 15%;
     opacity: .9;
 }
@@ -120,6 +127,16 @@
 .banner .banner-btn button a{
     text-decoration: none;
     color: white;
+}
+
+.banner hr{
+    width: 500px;
+    height: 2px;
+    border-style: none;
+    background-color: white;
+    margin-left: 35%;
+    margin-top: 20px;
+    opacity: .9;
 }
 
 footer{
