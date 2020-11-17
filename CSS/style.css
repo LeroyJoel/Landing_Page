@@ -5,20 +5,19 @@
 
 .header{
     /* border: 1px solid black; */
-    /* background-color: black; */
+    background-color: black;
     /* opacity: .9; */
     z-index: 99;
     position: relative;
     top: 0;
 }
 
-.header:hover{
-    background-color: black;
-}
 
 .header .brand-img img{
-    width: 100px;
+    width: 90px;
+    position: fixed;
     margin-left: 10px;
+    top: 10px;
 }
 
 .header .brand-items{
@@ -33,7 +32,9 @@
 }
 
 .header .brand-items .brand-text{
-    margin-left: 70%;
+    /* margin-left: 80%; */
+    position: fixed;
+    left: 80%;
 }
 
 
@@ -45,7 +46,7 @@
 
 .header .brand-items .brand-text ul li a{
     text-decoration: none;
-    color: #F5883D;
+    color: #ffffff;
     font-weight: bolder;
     font-size: larger;
 }
@@ -75,10 +76,11 @@
     text-align: center;
     margin-top: 15%;
     opacity: .9;
+    line-height: 50px;
 }
 
 .banner .banner-text h2{
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #F9683F;
 }
@@ -89,12 +91,13 @@
 }
 
 .banner .banner-btn{
-    margin-left: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
 }
 
 .banner .banner-btn button{
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 35px;
     background-color: #F9683F ;
     border: none;
     border-radius: 20px;
@@ -165,7 +168,7 @@ footer img:hover{
     position: fixed;
     top: 30%;
     right: 0;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
 
 .socials a{
@@ -173,6 +176,22 @@ footer img:hover{
     justify-content: center;
     width: 50px;
     height: 50px;
-    background-color: #ffffff;
-    border: 1px solid black;
+    text-decoration: none;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* background-color: #ffffff; */
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.socials i{
+    color: #Ffff;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.socials a:hover {
+    background-color: black;
+    opacity: .4;
+    transition: all ease-in-out 0.5s;
 }
