@@ -205,6 +205,6 @@ footer img:hover{
     padding-top: 15%;
 }
 
-#registration .container .reg-header h2{
+#registration .container .reg-header h2, p{
     color: coral;
 }
