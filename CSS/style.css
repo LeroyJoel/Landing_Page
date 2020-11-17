@@ -208,3 +208,19 @@ footer img:hover{
 #registration .container .reg-header h2, p{
     color: coral;
 }
+
+#registration ::placeholder{
+    color: tomato;
+}
+
+.form-group{
+    color: white;
+    padding: 10px;
+}
+
+.form-group input{
+    width: 400px;
+    height: 40px;
+    color: coral;
+    background-color: black;
+}

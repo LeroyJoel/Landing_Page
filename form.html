@@ -44,11 +44,19 @@
                             <input type="text" name="name" id="" class="form-control" placeholder="Enter Name">
                         </div>
                         <!-- Gender -->
-                        <label for="account">Gender:</label> <br>
+                        <div class="form-group">
+                            <label for="account">Gender:</label> <br>
                         <select name="gender" id="">
                             <option value="login">Male</option>
                             <option value="signin">Female</option>
-                        </select>
+                        </select><br>
+                        </div>
+                        <!-- DOB -->
+                        <div class="form-group">
+                            <label for="dob" class="control-label">Enter your date of birth</label><br>
+                            <input id="" name="dob" class="form-control" type="text" placeholder="_ _ /_ _ /_ _ _ _">
+                            <p class="help-block">E.g. dd/mm/yyyy</p>
+                        </div>
                         <!-- email -->
                         <div class="form-group">
                             <label for="mail">Email</label><br>
@@ -57,10 +65,8 @@
                     </div>
                     <div class="col-l">
                         <div class="form-group">
+                            <label for="tel">Phone Number</label><br>
                             <input type="tel" name="phone" id="" class="form-control" placeholder="Enter Phone Number">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" name="password" id="" class="form-control" placeholder="Enter Password">
                         </div>
                     </div>
                     <div class="col-l">
