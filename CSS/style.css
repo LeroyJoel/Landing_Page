@@ -196,3 +196,15 @@ footer img:hover{
     opacity: .4;
     transition: all ease-in-out 0.5s;
 }
+
+/* form styling */
+#registration{
+    background-color: black;
+    height: 100vh;
+    /* position: relative; */
+    padding-top: 15%;
+}
+
+#registration .container .reg-header h2{
+    color: coral;
+}
